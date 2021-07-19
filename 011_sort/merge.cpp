@@ -58,6 +58,7 @@ void merge_sort(int* arr, int left, int right)
 
 int main()
 {
+    #include "../fileio.h"
     int n;
     std::cin >> n;
     int arr[n];

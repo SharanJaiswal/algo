@@ -16,6 +16,7 @@ void insertion_sort(int* arr, int n)
 
 int main()
 {
+    #include "../fileio.h"
     int n;
     std::cin >> n;
     int *arr = new int[n];
