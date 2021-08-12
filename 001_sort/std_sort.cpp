@@ -23,7 +23,7 @@ int main()
     // If 'false' is returned, then 'b' will come before 'a'.
 
     // below we are using the library fucntion, present in 'fucntional' header.
-    std::sort(values.begin(), values.end(), std::greater<int>());
+    std::sort(values.begin(), values.end(), std::greater<int>());   // RHL is exclusive, even in case of arrays where array name is passed
 
     // Using custom lambda function as a predicate to the std::sort
     std::sort(values.begin(), values.end(), [](int a, int b)
@@ -39,6 +39,7 @@ int main()
     {
         std::cout << value << std::endl;
     }
+    
 
     return 0;
 }
